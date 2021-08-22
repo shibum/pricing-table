@@ -1,0 +1,174 @@
+[
+    {
+        "title": "Starter",
+        "price": 3,
+        "description": "Good place to start",
+        "featureGroups": [
+            {
+                "title": "Reporting",
+                "features": [
+                    {
+                        "title": "Detailed Reports",
+                        "enabled": false
+                    }, {
+                        "title": "Weekly Data Reports",
+                        "enabled": false
+                    }, {
+                        "title": "Create your own reports",
+                        "enabled": true
+                    }
+                ]
+            }, {
+                "title": "Blog",
+                "features": [
+                    {
+                        "title": "Create your own blog",
+                        "enabled": true
+                    }, {
+                        "title": "Upload Images",
+                        "enabled": false
+                    }
+                ]
+            }, {
+                "title": "File Storage",
+                "features": [
+                    {
+                        "title": "Upload files",
+                        "enabled": false
+                    }, {
+                        "title": "Share files with team",
+                        "enabled": true
+                    }, {
+                        "title": "Watch Videos",
+                        "enabled": false
+                    }
+                ]
+            }, {
+                "title": "Application Intergrations",
+                "features": [
+                    {
+                        "title": "Install new apps",
+                        "enabled": false
+                    }, {
+                        "title": "Install custom apps",
+                        "enabled": true
+                    }
+                ]
+            }
+        ]
+    }, {
+        "title": "Advanced",
+        "price": 10,
+        "description": "For the startup with more needs",
+        "featureGroups": [
+            {
+                "title": "Reporting",
+                "features": [
+                    {
+                        "title": "Detailed Reports",
+                        "enabled": true
+                    }, {
+                        "title": "Weekly Data Reports",
+                        "enabled": true
+                    }, {
+                        "title": "Create your own reports",
+                        "enabled": true
+                    }
+                ]
+            }, {
+                "title": "Blog",
+                "features": [
+                    {
+                        "title": "Create your own blog",
+                        "enabled": true
+                    }, {
+                        "title": "Upload Images",
+                        "enabled": true
+                    }
+                ]
+            }, {
+                "title": "File Storage",
+                "features": [
+                    {
+                        "title": "Upload files",
+                        "enabled": true
+                    }, {
+                        "title": "Share files with team",
+                        "enabled": true
+                    }, {
+                        "title": "Watch Videos",
+                        "enabled": false
+                    }
+                ]
+            }, {
+                "title": "Application Intergrations",
+                "features": [
+                    {
+                        "title": "Install new apps",
+                        "enabled": true
+                    }, {
+                        "title": "Install custom apps",
+                        "enabled": false
+                    }
+                ]
+            }
+        ]
+    }, {
+        "title": "Enterprise",
+        "price": 100,
+        "description": "For big companies with big dreams",
+        "featureGroups": [
+            {
+                "title": "Reporting",
+                "features": [
+                    {
+                        "title": "Detailed Reports",
+                        "enabled": true
+                    }, {
+                        "title": "Weekly Data Reports",
+                        "enabled": true
+                    }, {
+                        "title": "Create your own reports",
+                        "enabled": true
+                    }
+                ]
+            }, {
+                "title": "Blog",
+                "features": [
+                    {
+                        "title": "Create your own blog",
+                        "enabled": true
+                    }, {
+                        "title": "Upload Images",
+                        "enabled": true
+                    }
+                ]
+            }, {
+                "title": "File Storage",
+                "features": [
+                    {
+                        "title": "Upload files",
+                        "enabled": false
+                    }, {
+                        "title": "Share files with team",
+                        "enabled": true
+                    }, {
+                        "title": "Watch Videos",
+                        "enabled": false
+                    }
+                ]
+            }, {
+                "title": "Application Intergrations",
+                "features": [
+                    {
+                        "title": "Install new apps",
+                        "enabled": true
+                    }, {
+                        "title": "Install custom apps",
+                        "enabled": false
+                    }
+                ]
+            }
+        ]
+    }
+]

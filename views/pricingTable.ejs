@@ -1,0 +1,48 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" href="/css/pricing.css">
+</head>
+
+<body>
+<main>
+
+    <section class="pricing-info">
+        <div class="container center">
+            Find the plan that's right for you
+        </div>
+    </section>
+    <% if (tires.length > 0) { %>
+        <div class="pricing-grid__container">
+            <% for (let tire of tires) { %>
+                <article class="card pricing-item">
+                    <div class="price">
+                        <header class="card__header">
+                            <h1 class="pricing__title"><%= tire.title %></h1>
+                            <p class="pricing__description"><%= tire.description %></p>
+                            <div class="pricing__price">
+                                <sup>€</sup><%= tire.price %>
+                            </div>
+                            <div class="card__actions">
+                                <button class="btn">Get Started</button>
+                            </div>
+                        </header>
+
+                        <div class="card__content">
+                            <% for (let featureGroup of tire.featureGroups){ %>
+                                <div class="feature-group-title"><%= featureGroup.title %></div>
+                                <% for (let feature of featureGroup.features){ if(feature.enabled == true) { %>
+                                    <div class="feature-title enabled"><%= check + ' ' + feature.title %></div>
+                                <% } else { %>
+                                    <div class="feature-title"><%= uncheck + ' ' + feature.title %></div>
+                                <% }
+                                } %>
+                            <% } %>
+                        </div>
+                    </div>
+                </article>
+            <% } %>
+        </div>
+    <% } else { %>
+        <h1>No Pricing Tables Found!</h1>
+    <% } %>
+</main>
+<%- include('includes/end.ejs') %>

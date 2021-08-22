@@ -1,0 +1,77 @@
+{
+    "tires": [
+        {
+            "id": "starter",
+            "tierName": "Starter",
+            "price": 3,
+            "description": "Good place to start",
+            "featuresEnabled": ["2", "4", "7", "10"]
+        }, {
+            "id": "advanced",
+            "tierName": "Advanced",
+            "price": 10,
+            "description": "For the startup with more needs",
+            "featuresEnabled": ["1", "2", "3", "4", "5", "6", "7", "9"]
+        }, {
+            "id": "enterprise",
+            "tierName": "Enterprise",
+            "price": 100,
+            "description": "For big companies with big dreams",
+            "featuresEnabled": ["1", "2", "3", "4", "5", "7", "9"]
+        }
+    ],
+    "featureGroups": [
+        {
+            "title": "Reporting",
+            "features": [
+                {
+                    "title": "Detailed Reports",
+                    "id": "1"
+
+                }, {
+                    "title": "Weekly Data Reports",
+                    "id": "2"
+                }, {
+                    "title": "Create your own reports",
+                    "id": "3"
+                }
+            ]
+        }, {
+            "title": "Blog",
+            "features": [
+                {
+                    "title": "Create your own blog",
+                    "id": "4"
+                }, {
+                    "title": "Upload Images",
+                    "id": "5"
+                }
+            ]
+        }, {
+            "title": "File Storage",
+            "features": [
+                {
+                    "title": "Upload files",
+                    "id": "6"
+                }, {
+                    "title": "Share files with team",
+                    "id": "7"
+                }, {
+                    "title": "Watch Videos",
+                    "id": "8"
+                }
+            ]
+        }, {
+            "title": "Application Intergrations",
+            "features": [
+                {
+                    "title": "Install new apps",
+                    "id": "9"
+                }, {
+                    "title": "Install custom apps",
+                    "id": "10"
+                }
+            ]
+        }
+    ]
+}
